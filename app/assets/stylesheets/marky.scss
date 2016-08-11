@@ -1,3 +1,52 @@
 // Place all the styles related to the marky controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html{
+	
+}
+body{
+	display: block;
+	background: #2374AB;
+	text-align: center;
+	overflow:hidden;
+
+	#refresh{
+		color: #FDFFFC;
+		background: #D11149;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+		outline: none;
+
+		&:hover{
+			background: #D1456C;
+		}
+	}
+
+	div{
+		background: #2E9FEA;
+		display: block;
+		width: 30%;
+		margin: 10px auto;
+		border: 2px solid #FDFFFC;
+		border-radius: 3px;
+
+
+
+		h1{
+			text-align: left;
+			color: #FDFFFC;
+			font-family: 'Helvetica', san-serif;
+			padding: 20px;
+		}
+
+		p{
+			color: #FDFFFC;
+			padding: 10px 10px 10px 20px;
+			text-align: left;
+		}
+
+	}
+}

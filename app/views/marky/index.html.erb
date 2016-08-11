@@ -3,7 +3,8 @@
     <title>Marky Markov</title>
   </head>
   <body>
-    <div>
+    <button id="refresh">New Info</button>
+    <div class="pages-container">
       <h1>Pages</h1>
       <% @pages.each do |page| %>
       <p>
@@ -12,7 +13,7 @@
       <% end %>
     </div>
     
-    <div>
+    <div class="content-container">
       <h1>Content</h1>
     <% @sentences.each do |sentence| %>
     <p>
