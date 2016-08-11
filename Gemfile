@@ -49,3 +49,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'wikipedia-client'
 gem 'marky_markov'
+gem 'mechanize'

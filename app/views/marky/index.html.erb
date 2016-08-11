@@ -3,6 +3,23 @@
     <title>Marky Markov</title>
   </head>
   <body>
+    <div>
+      <h1>Pages</h1>
+      <% @pages.each do |page| %>
+      <p>
+        <%= page.title %>
+      </p>
+      <% end %>
+    </div>
+    
+    <div>
+      <h1>Content</h1>
+    <% @sentences.each do |sentence| %>
+    <p>
+      <%= sentence %>
+    </p>
+    <% end %>
+    </div>
   </body>
 </html>
 
